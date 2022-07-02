@@ -1,3 +1,8 @@
+*{
+  padding: 5px;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +16,111 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.serachbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.serachbar input{
+  width: 350px;
+  height: 30px;
+}
+
+.activePage{
+  color: blue;
+  font-weight: bold;
+  background-color: lightcyan;
+  border: 1px solid blue;
+  width: 30px;
+  border-radius: 4px;
+}
+
+table{
+  width:auto;
+  border-collapse: collapse;
+  padding: 20px;
+}
+
+td{
+  padding: 18px;
+}
+
+.row{
+  border-bottom: 1px solid lightgray;
+}
+
+thead{
+  background-color: lightgrey;
+  height: 10px;
+}
+
+th{
+  height: 20px;
+}
+
+.userdetails-list{
+  list-style: none;
+  padding-left: 55px;
+}
+.userdetails-btn h1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.pagination-outer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.pagination{
+  display: flex;
+  flex-direction: row;
+  gap: 5px ;
+}
+
+.normal{
+  color: black;
+  width: 30px;
+  border-radius: 4px;
+  border: 1px solid lightslategrey;
+  background-color: white;
+}
+
+.sort-symb{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+.sort-symb-2{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
