@@ -13,8 +13,8 @@ function App() {
       <h1>Users</h1>
       <Searchbar setSearchText={setSearchText}/>
       <Routes>
-        <Route path="/users" element={<UsersList searchText = {searchText} setSearchText={setSearchText} userdet = {setUserdet} />} ></Route>
-        <Route path="/users/:id" element={<UserDetails currUser={userdet} />} ></Route>
+        <Route path={process.env.PUBLIC_URL+"/users"} element={<UsersList searchText = {searchText} setSearchText={setSearchText} userdet = {setUserdet} />} ></Route>
+        <Route path={process.env.PUBLIC_URL+"/users/:id"} element={<UserDetails currUser={userdet} />} ></Route>
       </Routes>
       
 
