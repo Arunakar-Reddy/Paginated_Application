@@ -13,8 +13,8 @@ function App() {
       <h1>Users</h1>
       <Searchbar setSearchText={setSearchText}/>
       <Routes>
-        <Route path="/Paginated_Application/users" element={<UsersList searchText = {searchText} setSearchText={setSearchText} userdet = {setUserdet} />} ></Route>
-        <Route path="/Paginated_Application/users/:id" element={<UserDetails currUser={userdet} />} ></Route>
+        <Route path="/users" element={<UsersList searchText = {searchText} setSearchText={setSearchText} userdet = {setUserdet} />} ></Route>
+        <Route path="/users/:id" element={<UserDetails currUser={userdet} />} ></Route>
       </Routes>
       
 
