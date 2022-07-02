@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import UserDetails from "./UserDetails";
 import {useNavigate, Outlet} from 'react-router-dom'
 import Pagination from "./Pagination";
 
@@ -84,7 +83,7 @@ export default function UsersList({searchText,setSearchText,userdet}){
                             }
                         }).map(user => (
                             <tr key={user.id} className="row">
-                                <td onClick={()=>ClickHandler(user)}>{user.first_name}</td>
+                                <td onClick={()=>ClickHandler(user)} className="first-name">{user.first_name}</td>
                                 <td>{user.last_name}</td>
                                 <td>{user.age}</td>
                                 <td>{user.email}</td>

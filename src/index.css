@@ -124,3 +124,10 @@ th{
   justify-content: center;
 }
 
+th :hover{
+  cursor: pointer;
+}
+
+.first-name:hover{
+  cursor: pointer;
+}
