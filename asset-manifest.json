@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Paginated_Application/static/css/main.c48a8a99.css",
+    "main.js": "/Paginated_Application/static/js/main.6bc5c065.js",
+    "index.html": "/Paginated_Application/index.html",
+    "main.c48a8a99.css.map": "/Paginated_Application/static/css/main.c48a8a99.css.map",
+    "main.6bc5c065.js.map": "/Paginated_Application/static/js/main.6bc5c065.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c48a8a99.css",
+    "static/js/main.6bc5c065.js"
+  ]
+}
